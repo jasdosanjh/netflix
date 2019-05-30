@@ -5,8 +5,9 @@
 @import "../../node_modules/normalize.css/normalize.css";  // Normalize.css - Good for mobile and modern browsers
 
 // ITCSS: GENERIC (ELEMENTS/BASE)
-@import "base";                    // h1, h2, h3, p, etc etc
-@import "buttons";                // button styles
-@import "header";                // showcase section
-@import "tabs";                 // tabs section
-@import "footer";               // footer section
+@import "base";                     // h1, h2, h3, p, etc etc
+@import "buttons";                // Button styles
+@import "header";                // Showcase section
+@import "tabs";                 // Tabs section
+@import "footer";              // Footer section
+@import "mediaqueries";            // Media Queries
