@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --out-dir build"
+    "build": "parcel build src/index.html --out-dir build",
+    "predeploy": "rm -rf build && parcel build index.html --public--url /netflix-gh-pages",
+    "deploy": "gh-pages -d build"
   },
   "author": "JSD",
   "license": "ISC",
@@ -14,6 +16,7 @@
     "sass": "^1.20.1"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "meyer-sass": "^2.0.1",
     "normalize.css": "^8.0.1"
   }
