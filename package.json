@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --out-dir build",
-    "predeploy": "rm -rf build && parcel build index.html --public--url /netflix-gh-pages",
-    "deploy": "gh-pages -d build"
+    "build": "parcel build src/index.html --out-dir build"
   },
   "author": "JSD",
   "license": "ISC",
